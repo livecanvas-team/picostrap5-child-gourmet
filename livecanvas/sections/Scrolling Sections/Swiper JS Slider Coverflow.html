@@ -1,0 +1,82 @@
+<section class="py-4 pb-6">
+
+	<div class="container">
+		<div class="swiper mySwiper-RANDOMID mask">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide text-center">
+					<div class="lc-block">
+						<img class="img-fluid rounded-4" src="https://images.unsplash.com/photo-1503624886539-b1355ee1a745?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjM3ODR9&amp;s=05d1b7e1db6bcbdc11c57c357768c11c">
+					</div>
+				</div>
+				<div class="swiper-slide text-center">
+					<div class="lc-block">
+						<img class="img-fluid rounded-4" src="https://images.unsplash.com/photo-1503624886539-b1355ee1a745?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjM3ODR9&amp;s=05d1b7e1db6bcbdc11c57c357768c11c">
+					</div>
+				</div>
+				<div class="swiper-slide text-center">
+					<div class="lc-block">
+						<img class="img-fluid rounded-4" src="https://images.unsplash.com/photo-1503624886539-b1355ee1a745?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjM3ODR9&amp;s=05d1b7e1db6bcbdc11c57c357768c11c">
+					</div>
+				</div>
+				<div class="swiper-slide text-center">
+					<div class="lc-block">
+						<img class="img-fluid rounded-4" src="https://images.unsplash.com/photo-1503624886539-b1355ee1a745?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjM3ODR9&amp;s=05d1b7e1db6bcbdc11c57c357768c11c">
+					</div>
+				</div>
+				<div class="swiper-slide text-center">
+					<div class="lc-block">
+						<img class="img-fluid rounded-4" src="https://images.unsplash.com/photo-1503624886539-b1355ee1a745?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjM3ODR9&amp;s=05d1b7e1db6bcbdc11c57c357768c11c">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- Swiper CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+	<!-- Swiper JS -->
+	<script defer="" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+		onload="initSwiper_RANDOMID()"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+
+		function initSwiper_RANDOMID() {
+			var swiper = new Swiper(".mySwiper-RANDOMID", {
+				effect: "coverflow",
+				grabCursor: true,
+				centeredSlides: true,
+				coverflowEffect: {
+					rotate: 0,
+					stretch: 0,
+					depth: 100,
+					modifier: 3,
+					slideShadows: true
+				},
+				keyboard: {
+					enabled: true
+				},
+				loop: true,
+
+				breakpoints: {
+					0: {
+						slidesPerView: 1.4
+					},
+					768: {
+						slidesPerView: 3
+					},
+					992: {
+						slidesPerView: 3
+					},
+					1440: {
+						slidesPerView: 3
+					}
+				}
+			});
+		}
+	</script>
+
+</section>

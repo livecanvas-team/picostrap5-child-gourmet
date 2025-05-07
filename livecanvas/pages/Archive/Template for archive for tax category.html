@@ -1,0 +1,168 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer="" onload="initSwiperArchive();"></script>
+
+<tangible>
+
+	<section class="py-4 bg-light text-center">
+		<loop type="taxonomy_term" taxonomy="category" terms="current">
+
+			<div class="container">
+				<div class="lc-block">
+					<!-- Archive Title -->
+					<h1 class="display-4 fw-bold">
+						<field name="title"></field>
+					</h1>
+				</div>
+			</div>
+		</loop>
+	</section>
+	<section class="pt-4 ps-xxl-4">
+		<div id="container-content-archive" class="container-fluid px-0 overflow-hidden">
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<!-- Starts the loop for posts -->
+					<loop count="10">
+						<div class="swiper-slide position-relative d-flex flex-column justify-content-end h-auto min-vh-50 min-vh-xl-75">
+							<!-- Thumbnail -->
+							<div class="lc-block h-100 w-100 position-absolute">
+								<a href="{Field url}" class="stretched-link">
+									<if field="image">
+										<img src="{Field image_url size='full'}" srcset="{Field image_srcset}" sizes="{Field image_sizes}" class="w-100 h-100 object-fit-cover rounded-4" alt="{Field image_alt}" style="filter: brightness(50%);">
+										<else>
+											<img src="https://placehold.co/885x1328?text=Placeholder" class="w-100 h-100 object-fit-cover rounded-4" alt="Placeholder image" style="filter: brightness(50%);">
+										</else>
+									</if>
+								</a>
+							</div>
+
+							<div class="card bg-transparent border-0">
+
+								<div class="card-body">
+									<small class="text-light-600">
+										<field name="publish_date" date_format="F j, Y"></field>
+									</small>
+
+									<h2 class="display-6 fw-semibold text-light ls-n1">
+										<field name="title"></field>
+									</h2>
+								</div>
+							</div>
+						</div>
+
+					</loop>
+					<!-- End of the loop -->
+				</div>
+
+
+			</div>
+
+		</div>
+		<div class="lc-block py-4 d-block d-lg-none text-center">
+			<span class="btn btn-link text-body icon-link text-decoration-none" href="#">
+				Swipe to read more
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8">
+					</path>
+				</svg>
+			</span>
+		</div>
+
+
+
+
+	</section>
+</tangible>
+
+<script>
+
+function initSwiperArchive(){
+	
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+   
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      },
+      
+    });
+    
+    
+}
+  </script>
+
+
+<section>
+	<div class="container py-6 py-lg-8">
+		<div class="row mb-4">
+			<div class="col-12">
+				<div class="lc-block mb-lg-5">
+					<div editable="rich">
+						<h2 class="display-5 fw-bold ls-n1">Our Latest Articles</h2>
+					</div>
+					<div editable="rich">
+						<p class="lead">Discover the newest insights and trends in technology, health, and lifestyle.&nbsp;<br>Stay updated with our expert-written articles.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="lc-block">
+			<tangible class="live-refresh">
+				<div id="myPostsGrid" class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-xl-5">
+
+					<!-- Start of the loop to display posts -->
+					<loop type="post" count="6" orderby="date" order="desc">
+						<div class="position-relative">
+							<div class="row">
+								<div class="col-12">
+
+									<!-- Conditional: Check if an image is available for the post -->
+									<if field="image">
+										<img loading="lazy" src="{Field image_url size='large'}" srcset="{Field image_srcset}" sizes="{Field image_sizes}" class="img-fluid mb-3 w-100 object-fit-cover rounded-3 shadow" style="aspect-ratio:4/3" alt="{Field image_alt}">
+
+										<!-- Else: Use a placeholder image if no image is available -->
+										<else>
+											<img loading="lazy" src="https://placehold.co/300x200" class="img-fluid mb-3 w-100 object-fit-cover rounded-3 shadow" style="aspect-ratio:4/3" alt="Placeholder">
+										</else>
+									</if>
+
+								</div>
+								<div class="col-12">
+									<a class="stretched-link text-decoration-none" href="{Field url}">
+										<h3 class="fw-bold fs-4 ls-n1">
+											<field name="title">
+											</field>
+										</h3>
+									</a>
+									<p class="text-body text-opacity-50">
+										<field name="publish_date" date_format="F j, Y">
+										</field>
+									</p>
+								</div>
+							</div>
+						</div>
+					</loop>
+					<!-- End of the loop -->
+
+				</div>
+			</tangible>
+		</div>
+
+
+
+	</div>
+</section>

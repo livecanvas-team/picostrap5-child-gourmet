@@ -1,0 +1,8 @@
+How to use the file
+ editor-configuration_DISABLED.js 
+to customise the LiveCanvas property editing panels and suit your classes.
+
+
+1. rename the file to editor-configuration.js
+
+2. Open the file and hack it to your desires
