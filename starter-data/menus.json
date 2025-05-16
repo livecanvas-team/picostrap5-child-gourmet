@@ -1,0 +1,68 @@
+[
+    {
+        "menu_name": "Pages Menu",
+        "menu_slug": "pages-menu",
+        "items": [
+            {
+                "title": "Home",
+                "url": "http://localhost:10139/",
+                "menu_order": 1,
+                "parent": "0",
+                "type": "post_type",
+                "object": "page",
+                "object_id": "8",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "Menu",
+                "url": "/#menu",
+                "menu_order": 2,
+                "parent": "0",
+                "type": "custom",
+                "object": "custom",
+                "object_id": "250",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "About us",
+                "url": "http://localhost:10139/about-us/",
+                "menu_order": 3,
+                "parent": "0",
+                "type": "post_type",
+                "object": "page",
+                "object_id": "678",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "News",
+                "url": "http://localhost:10139/news/",
+                "menu_order": 4,
+                "parent": "0",
+                "type": "post_type",
+                "object": "page",
+                "object_id": "667",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            }
+        ]
+    }
+]
