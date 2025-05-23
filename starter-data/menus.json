@@ -20,7 +20,7 @@
             },
             {
                 "title": "Menu",
-                "url": "#menu",
+                "url": "/#menu",
                 "menu_order": 2,
                 "parent": "0",
                 "type": "custom",
