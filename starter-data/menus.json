@@ -5,12 +5,12 @@
         "items": [
             {
                 "title": "Home",
-                "url": "http://localhost:10139/",
+                "url": "http://localhost:8884/",
                 "menu_order": 1,
                 "parent": "0",
                 "type": "post_type",
                 "object": "page",
-                "object_id": "8",
+                "object_id": "13",
                 "classes": [
                     ""
                 ],
@@ -20,12 +20,12 @@
             },
             {
                 "title": "Menu",
-                "url": "/#menu",
+                "url": "#menu",
                 "menu_order": 2,
                 "parent": "0",
                 "type": "custom",
                 "object": "custom",
-                "object_id": "250",
+                "object_id": "28",
                 "classes": [
                     ""
                 ],
@@ -35,12 +35,12 @@
             },
             {
                 "title": "About us",
-                "url": "http://localhost:10139/about-us/",
+                "url": "http://localhost:8884/?page_id=26",
                 "menu_order": 3,
                 "parent": "0",
                 "type": "post_type",
                 "object": "page",
-                "object_id": "678",
+                "object_id": "26",
                 "classes": [
                     ""
                 ],
@@ -50,12 +50,27 @@
             },
             {
                 "title": "News",
-                "url": "http://localhost:10139/news/",
+                "url": "http://localhost:8884/?page_id=25",
                 "menu_order": 4,
                 "parent": "0",
                 "type": "post_type",
                 "object": "page",
-                "object_id": "667",
+                "object_id": "25",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "Table Reservation",
+                "url": "http://localhost:8884/?page_id=24",
+                "menu_order": 5,
+                "parent": "0",
+                "type": "post_type",
+                "object": "page",
+                "object_id": "24",
                 "classes": [
                     ""
                 ],
