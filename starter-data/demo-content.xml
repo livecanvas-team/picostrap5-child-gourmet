@@ -26,40 +26,134 @@
 >
 
 <channel>
-	<title>Gourmet LC</title>
-	<link>http://localhost:10139</link>
+	<title>Gourmet Dev</title>
+	<link>http://localhost:8884</link>
 	<description></description>
-	<pubDate>Fri, 04 Apr 2025 09:43:56 +0000</pubDate>
+	<pubDate>Fri, 23 May 2025 02:06:14 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://localhost:10139</wp:base_site_url>
-	<wp:base_blog_url>http://localhost:10139</wp:base_blog_url>
+	<wp:base_site_url>http://localhost:8884</wp:base_site_url>
+	<wp:base_blog_url>http://localhost:8884</wp:base_blog_url>
 
-		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[dev-email@wpengine.local]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[admin@localhost.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
-		<wp:category>
-		<wp:term_id>2</wp:term_id>
-		<wp:category_nicename><![CDATA[news]]></wp:category_nicename>
-		<wp:category_parent><![CDATA[]]></wp:category_parent>
-		<wp:cat_name><![CDATA[News]]></wp:cat_name>
-	</wp:category>
 		<wp:category>
 		<wp:term_id>1</wp:term_id>
 		<wp:category_nicename><![CDATA[uncategorized]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
 	</wp:category>
-					<wp:term><wp:term_id>3</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[pages-menu]]></wp:term_slug><wp:term_name><![CDATA[Pages Menu]]></wp:term_name>
+					<wp:term><wp:term_id>2</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[pages-menu]]></wp:term_slug><wp:term_name><![CDATA[Pages Menu]]></wp:term_name>
 </wp:term>
 
 	
 
 		<item>
+		<title><![CDATA[Privacy Policy]]></title>
+		<link>http://localhost:8884/?page_id=3</link>
+		<pubDate>Thu, 22 May 2025 22:59:38 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?page_id=3</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading -->
+<h2 class="wp-block-heading">Who we are</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>Our website address is: http://localhost:8884.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Comments</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor&#8217;s IP address and browser user agent string to help spam detection.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Media</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Cookies</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Embedded content from other websites</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Who we share your data with</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you request a password reset, your IP address will be included in the reset email.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How long we retain your data</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What rights you have over your data</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Where your data is sent</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>Visitor comments may be checked through an automated spam detection service.</p>
+<!-- /wp:paragraph -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-22 22:59:38]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-22 22:59:38]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-22 22:59:38]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-22 22:59:38]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[privacy-policy]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Header]]></title>
-		<link>http://localhost:10139/?lc_partial=header</link>
+		<link>http://localhost:8884/?lc_partial=header</link>
 		<pubDate>Sat, 02 Nov 2024 16:40:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?lc_partial=header</guid>
+		<guid isPermaLink="false">http://localhost:8884/?lc_partial=header</guid>
 		<description></description>
 		<content:encoded><![CDATA[
 <section class="py-lg-4">
@@ -89,11 +183,11 @@
 </section>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>5</wp:post_id>
+		<wp:post_id>7</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-02 16:40:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-02 16:40:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-01-15 14:25:55]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-01-15 14:25:55]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-11-02 16:40:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-02 16:40:10]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[header]]></wp:post_name>
@@ -112,10 +206,6 @@
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
 		<wp:meta_key><![CDATA[_lc_last_activity_userid]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -126,10 +216,10 @@
 							</item>
 					<item>
 		<title><![CDATA[Footer]]></title>
-		<link>http://localhost:10139/?lc_partial=footer</link>
+		<link>http://localhost:8884/?lc_partial=footer</link>
 		<pubDate>Sat, 02 Nov 2024 16:40:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?lc_partial=footer</guid>
+		<guid isPermaLink="false">http://localhost:8884/?lc_partial=footer</guid>
 		<description></description>
 		<content:encoded><![CDATA[
 <section class="py-6">
@@ -170,11 +260,11 @@
 </section>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>6</wp:post_id>
+		<wp:post_id>8</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-02 16:40:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-02 16:40:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-01-13 13:27:01]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-01-13 13:27:01]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-11-02 16:40:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-02 16:40:10]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[footer]]></wp:post_name>
@@ -195,18 +285,18 @@
 							</item>
 					<item>
 		<title><![CDATA[Global JavaScript Code]]></title>
-		<link>http://localhost:10139/?lc_partial=global-javascript-code</link>
+		<link>http://localhost:8884/?lc_partial=global-javascript-code</link>
 		<pubDate>Sat, 02 Nov 2024 16:40:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?lc_partial=global-javascript-code</guid>
+		<guid isPermaLink="false">http://localhost:8884/?lc_partial=global-javascript-code</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>9</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-02 16:40:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-02 16:40:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 09:43:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 09:43:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-11-02 16:40:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-02 16:40:10]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[global-javascript-code]]></wp:post_name>
@@ -222,113 +312,11 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[]]></title>
-		<link>http://localhost:10139/11/</link>
-		<pubDate>Tue, 07 Jan 2025 21:16:02 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>11</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 08:58:20]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-01-07 21:16:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 08:58:20]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 08:58:20]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[11]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="pages-menu"><![CDATA[Pages Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[8]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-01-07]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-01-13]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-03-28]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-03-29]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[theme]]></title>
-		<link>http://localhost:10139/theme/</link>
-		<pubDate>Sat, 02 Nov 2024 17:28:40 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/theme/</guid>
-		<description></description>
-		<content:encoded><![CDATA[.mask {
-mask-image:
-linear-gradient(to left, rgba(var(--bs-body-bg-rgb), 0) 0%, rgba(var(--bs-body-bg-rgb), 0.1) 5%, rgba(var(--bs-body-bg-rgb), 0.3) 10%, rgba(var(--bs-body-bg-rgb), 0.5) 20%, rgba(var(--bs-body-bg-rgb), 0.7) 30%, rgba(var(--bs-body-bg-rgb), 0.9) 40%, rgba(var(--bs-body-bg-rgb), 1) 50%, rgba(var(--bs-body-bg-rgb), 1) 100%),
-linear-gradient(to right, rgba(var(--bs-body-bg-rgb), 0) 0%, rgba(var(--bs-body-bg-rgb), 0.1) 5%, rgba(var(--bs-body-bg-rgb), 0.3) 10%, rgba(var(--bs-body-bg-rgb), 0.5) 20%, rgba(var(--bs-body-bg-rgb), 0.7) 30%, rgba(var(--bs-body-bg-rgb), 0.9) 40%, rgba(var(--bs-body-bg-rgb), 1) 50%, rgba(var(--bs-body-bg-rgb), 1) 100%);
-mask-composite: intersect;
-}]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>22</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-02 17:28:40]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-02 17:28:40]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-11-02 17:28:40]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-11-02 17:28:40]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[theme]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[custom_css]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
 		<title><![CDATA[Template for archives]]></title>
-		<link>http://localhost:10139/?lc_dynamic_template=template-for-archive-for-tax-category</link>
+		<link>http://localhost:8884/?lc_dynamic_template=template-for-archives</link>
 		<pubDate>Mon, 04 Nov 2024 21:58:05 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?post_type=lc_dynamic_template&#038;p=86</guid>
+		<guid isPermaLink="false">http://localhost:8884/?lc_dynamic_template=template-for-archives</guid>
 		<description></description>
 		<content:encoded><![CDATA[
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
@@ -501,14 +489,14 @@ function initSwiperArchive(){
 </section>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>86</wp:post_id>
+		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-04 21:58:05]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-04 21:58:05]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-03 23:43:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-03 23:43:59]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-11-04 21:58:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-04 21:58:05]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[template-for-archive-for-tax-category]]></wp:post_name>
+		<wp:post_name><![CDATA[template-for-archives]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -518,10 +506,6 @@ function initSwiperArchive(){
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
 		<wp:meta_value><![CDATA[Template for archive for tax category]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[ss_title_tag]]></wp:meta_key>
@@ -557,44 +541,11 @@ function initSwiperArchive(){
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[toa-heftiba-yfaEuuackFw-unsplash]]></title>
-		<link>http://localhost:10139/sunday-yoga-coffee-morning-relax-recharge-refresh/toa-heftiba-yfaeuuackfw-unsplash/</link>
-		<pubDate>Tue, 05 Nov 2024 00:46:17 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/wp-content/uploads/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled-1.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>230</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-05 00:46:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-05 00:46:17]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-11-05 00:46:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-11-05 00:46:17]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[toa-heftiba-yfaeuuackfw-unsplash]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>161</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost:10139/wp-content/uploads/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled-1.jpg]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled-1.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1707;s:6:"height";i:2560;s:4:"file";s:53:"2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled-1.jpg";s:8:"filesize";i:733229;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:53:"toa-heftiba-yfaEuuackFw-unsplash-scaled-1-200x300.jpg";s:5:"width";i:200;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:21872;}s:5:"large";a:5:{s:4:"file";s:54:"toa-heftiba-yfaEuuackFw-unsplash-scaled-1-683x1024.jpg";s:5:"width";i:683;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:152220;}s:9:"thumbnail";a:5:{s:4:"file";s:53:"toa-heftiba-yfaEuuackFw-unsplash-scaled-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:11271;}s:12:"medium_large";a:5:{s:4:"file";s:54:"toa-heftiba-yfaEuuackFw-unsplash-scaled-1-768x1152.jpg";s:5:"width";i:768;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:184669;}s:9:"1536x1536";a:5:{s:4:"file";s:55:"toa-heftiba-yfaEuuackFw-unsplash-scaled-1-1024x1536.jpg";s:5:"width";i:1024;s:6:"height";i:1536;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:297034;}s:9:"2048x2048";a:5:{s:4:"file";s:55:"toa-heftiba-yfaEuuackFw-unsplash-scaled-1-1366x2048.jpg";s:5:"width";i:1366;s:6:"height";i:2048;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:473800;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Template for single post]]></title>
-		<link>http://localhost:10139/?lc_dynamic_template=template-for-single-post</link>
+		<link>http://localhost:8884/?lc_dynamic_template=template-for-single-post</link>
 		<pubDate>Tue, 05 Nov 2024 00:54:50 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?post_type=lc_dynamic_template&#038;p=249</guid>
+		<guid isPermaLink="false">http://localhost:8884/?lc_dynamic_template=template-for-single-post</guid>
 		<description></description>
 		<content:encoded><![CDATA[
 <tangible>
@@ -768,11 +719,11 @@ function initSwiperArchive(){
 </tangible>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>249</wp:post_id>
+		<wp:post_id>11</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-05 00:54:50]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-05 00:54:50]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-24 10:29:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-24 10:29:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-11-05 00:54:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-05 00:54:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[template-for-single-post]]></wp:post_name>
@@ -783,10 +734,6 @@ function initSwiperArchive(){
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
 		<wp:meta_key><![CDATA[ss_title_tag]]></wp:meta_key>
 		<wp:meta_value><![CDATA[Template for single post]]></wp:meta_value>
 		</wp:postmeta>
@@ -820,473 +767,29 @@ function initSwiperArchive(){
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Menu]]></title>
-		<link>http://localhost:10139/menu/</link>
-		<pubDate>Tue, 07 Jan 2025 21:16:07 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/menu/</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>250</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 08:58:20]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-01-07 21:16:07]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 08:58:20]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 08:58:20]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[menu]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="pages-menu"><![CDATA[Pages Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[250]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/#menu]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-01-07]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-01-13]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-03-28]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-03-29]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[photo-1514320291840-2e0a9bf2a9ae]]></title>
-		<link>http://localhost:10139/music-open-mic-a-night-for-local-talent-2/photo-1514320291840-2e0a9bf2a9ae/</link>
-		<pubDate>Wed, 13 Nov 2024 17:16:07 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/wp-content/uploads/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>286</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-13 17:16:07]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-13 17:16:07]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-11-13 17:16:07]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-11-13 17:16:07]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[photo-1514320291840-2e0a9bf2a9ae]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>160</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost:10139/wp-content/uploads/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1080;s:6:"height";i:768;s:4:"file";s:45:"2024/11/photo-1514320291840-2e0a9bf2a9ae.avif";s:8:"filesize";i:79365;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:45:"photo-1514320291840-2e0a9bf2a9ae-300x213.avif";s:5:"width";i:300;s:6:"height";i:213;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:12743;}s:5:"large";a:5:{s:4:"file";s:46:"photo-1514320291840-2e0a9bf2a9ae-1024x728.avif";s:5:"width";i:1024;s:6:"height";i:728;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:72647;}s:9:"thumbnail";a:5:{s:4:"file";s:45:"photo-1514320291840-2e0a9bf2a9ae-150x150.avif";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:5785;}s:12:"medium_large";a:5:{s:4:"file";s:45:"photo-1514320291840-2e0a9bf2a9ae-768x546.avif";s:5:"width";i:768;s:6:"height";i:546;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:49749;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[photo-1649798510566-4a52cd4fe463]]></title>
-		<link>http://localhost:10139/music-open-mic-a-night-for-local-talent/photo-1649798510566-4a52cd4fe463/</link>
-		<pubDate>Wed, 13 Nov 2024 17:16:48 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/wp-content/uploads/2024/11/photo-1649798510566-4a52cd4fe463.avif</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>287</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-13 17:16:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-13 17:16:48]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-11-13 17:16:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-11-13 17:16:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[photo-1649798510566-4a52cd4fe463]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>158</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost:10139/wp-content/uploads/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1080;s:6:"height";i:768;s:4:"file";s:45:"2024/11/photo-1649798510566-4a52cd4fe463.avif";s:8:"filesize";i:44625;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:45:"photo-1649798510566-4a52cd4fe463-300x213.avif";s:5:"width";i:300;s:6:"height";i:213;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:10412;}s:5:"large";a:5:{s:4:"file";s:46:"photo-1649798510566-4a52cd4fe463-1024x728.avif";s:5:"width";i:1024;s:6:"height";i:728;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:45067;}s:9:"thumbnail";a:5:{s:4:"file";s:45:"photo-1649798510566-4a52cd4fe463-150x150.avif";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:5745;}s:12:"medium_large";a:5:{s:4:"file";s:45:"photo-1649798510566-4a52cd4fe463-768x546.avif";s:5:"width";i:768;s:6:"height";i:546;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:32324;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[photo-1494346480775-936a9f0d0877]]></title>
-		<link>http://localhost:10139/cafe-trivia-night-test-your-knowledge-over-coffee/photo-1494346480775-936a9f0d0877/</link>
-		<pubDate>Wed, 13 Nov 2024 17:17:50 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/wp-content/uploads/2024/11/photo-1494346480775-936a9f0d0877.avif</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>288</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-13 17:17:50]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-13 17:17:50]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-11-13 17:17:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-11-13 17:17:50]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[photo-1494346480775-936a9f0d0877]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>156</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost:10139/wp-content/uploads/2024/11/photo-1494346480775-936a9f0d0877.avif]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/11/photo-1494346480775-936a9f0d0877.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1080;s:6:"height";i:768;s:4:"file";s:45:"2024/11/photo-1494346480775-936a9f0d0877.avif";s:8:"filesize";i:163491;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:45:"photo-1494346480775-936a9f0d0877-300x213.avif";s:5:"width";i:300;s:6:"height";i:213;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:23063;}s:5:"large";a:5:{s:4:"file";s:46:"photo-1494346480775-936a9f0d0877-1024x728.avif";s:5:"width";i:1024;s:6:"height";i:728;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:146243;}s:9:"thumbnail";a:5:{s:4:"file";s:45:"photo-1494346480775-936a9f0d0877-150x150.avif";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:9895;}s:12:"medium_large";a:5:{s:4:"file";s:45:"photo-1494346480775-936a9f0d0877-768x546.avif";s:5:"width";i:768;s:6:"height";i:546;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:97985;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[photo-1461023058943-07fcbe16d735]]></title>
-		<link>http://localhost:10139/book-club-brunch-literary-discussions-over-coffee/photo-1461023058943-07fcbe16d735/</link>
-		<pubDate>Wed, 13 Nov 2024 17:18:22 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/wp-content/uploads/2024/11/photo-1461023058943-07fcbe16d735.avif</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>289</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-13 17:18:22]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-13 17:18:22]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-11-13 17:18:22]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-11-13 17:18:22]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[photo-1461023058943-07fcbe16d735]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>154</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost:10139/wp-content/uploads/2024/11/photo-1461023058943-07fcbe16d735.avif]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/11/photo-1461023058943-07fcbe16d735.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1080;s:6:"height";i:768;s:4:"file";s:45:"2024/11/photo-1461023058943-07fcbe16d735.avif";s:8:"filesize";i:29484;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:45:"photo-1461023058943-07fcbe16d735-300x213.avif";s:5:"width";i:300;s:6:"height";i:213;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:7561;}s:5:"large";a:5:{s:4:"file";s:46:"photo-1461023058943-07fcbe16d735-1024x728.avif";s:5:"width";i:1024;s:6:"height";i:728;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:31018;}s:9:"thumbnail";a:5:{s:4:"file";s:45:"photo-1461023058943-07fcbe16d735-150x150.avif";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:4295;}s:12:"medium_large";a:5:{s:4:"file";s:45:"photo-1461023058943-07fcbe16d735-768x546.avif";s:5:"width";i:768;s:6:"height";i:546;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:22006;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[photo-1530263131525-1c1d26feaa60]]></title>
-		<link>http://localhost:10139/paint-sip-create-art-with-a-cup-of-inspiration/photo-1530263131525-1c1d26feaa60/</link>
-		<pubDate>Wed, 13 Nov 2024 17:19:24 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/wp-content/uploads/2024/11/photo-1530263131525-1c1d26feaa60.avif</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>290</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-13 17:19:24]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-13 17:19:24]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-11-13 17:19:24]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-11-13 17:19:24]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[photo-1530263131525-1c1d26feaa60]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>152</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost:10139/wp-content/uploads/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1080;s:6:"height";i:768;s:4:"file";s:45:"2024/11/photo-1530263131525-1c1d26feaa60.avif";s:8:"filesize";i:197568;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:45:"photo-1530263131525-1c1d26feaa60-300x213.avif";s:5:"width";i:300;s:6:"height";i:213;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:28256;}s:5:"large";a:5:{s:4:"file";s:46:"photo-1530263131525-1c1d26feaa60-1024x728.avif";s:5:"width";i:1024;s:6:"height";i:728;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:176876;}s:9:"thumbnail";a:5:{s:4:"file";s:45:"photo-1530263131525-1c1d26feaa60-150x150.avif";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:11924;}s:12:"medium_large";a:5:{s:4:"file";s:45:"photo-1530263131525-1c1d26feaa60-768x546.avif";s:5:"width";i:768;s:6:"height";i:546;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:118976;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[photo-1696198150240-373dcabf24bf]]></title>
-		<link>http://localhost:10139/book-club-brunch-literary-discussions-over-coffee/photo-1696198150240-373dcabf24bf/</link>
-		<pubDate>Wed, 13 Nov 2024 17:21:22 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/wp-content/uploads/2024/11/photo-1696198150240-373dcabf24bf.avif</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>292</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-13 17:21:22]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-13 17:21:22]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-11-13 17:21:22]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-11-13 17:21:22]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[photo-1696198150240-373dcabf24bf]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>154</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost:10139/wp-content/uploads/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1080;s:6:"height";i:768;s:4:"file";s:45:"2024/11/photo-1696198150240-373dcabf24bf.avif";s:8:"filesize";i:63148;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:45:"photo-1696198150240-373dcabf24bf-300x213.avif";s:5:"width";i:300;s:6:"height";i:213;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:12990;}s:5:"large";a:5:{s:4:"file";s:46:"photo-1696198150240-373dcabf24bf-1024x728.avif";s:5:"width";i:1024;s:6:"height";i:728;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:58172;}s:9:"thumbnail";a:5:{s:4:"file";s:45:"photo-1696198150240-373dcabf24bf-150x150.avif";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:6634;}s:12:"medium_large";a:5:{s:4:"file";s:45:"photo-1696198150240-373dcabf24bf-768x546.avif";s:5:"width";i:768;s:6:"height";i:546;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:41526;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[photo-1508424757105-b6d5ad9329d0]]></title>
-		<link>http://localhost:10139/cafe-trivia-night-test-your-knowledge-over-coffee/photo-1508424757105-b6d5ad9329d0/</link>
-		<pubDate>Wed, 13 Nov 2024 17:23:31 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/wp-content/uploads/2024/11/photo-1508424757105-b6d5ad9329d0.avif</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>293</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-13 17:23:31]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-13 17:23:31]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-11-13 17:23:31]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-11-13 17:23:31]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[photo-1508424757105-b6d5ad9329d0]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>156</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost:10139/wp-content/uploads/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1080;s:6:"height";i:1440;s:4:"file";s:45:"2024/11/photo-1508424757105-b6d5ad9329d0.avif";s:8:"filesize";i:403711;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:45:"photo-1508424757105-b6d5ad9329d0-225x300.avif";s:5:"width";i:225;s:6:"height";i:300;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:30418;}s:5:"large";a:5:{s:4:"file";s:46:"photo-1508424757105-b6d5ad9329d0-768x1024.avif";s:5:"width";i:768;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:230358;}s:9:"thumbnail";a:5:{s:4:"file";s:45:"photo-1508424757105-b6d5ad9329d0-150x150.avif";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:12471;}s:12:"medium_large";a:5:{s:4:"file";s:46:"photo-1508424757105-b6d5ad9329d0-768x1024.avif";s:5:"width";i:768;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:230358;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[picostrap5-child-gourmet]]></title>
-		<link>http://localhost:10139/picostrap5-child-gourmet/</link>
-		<pubDate>Tue, 07 Jan 2025 21:19:52 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/picostrap5-child-gourmet/</guid>
-		<description></description>
-		<content:encoded><![CDATA[.mask {
-mask-image:
-linear-gradient(to left, rgba(var(--bs-body-bg-rgb), 0) 0%, rgba(var(--bs-body-bg-rgb), 0.1) 5%, rgba(var(--bs-body-bg-rgb), 0.3) 10%, rgba(var(--bs-body-bg-rgb), 0.5) 20%, rgba(var(--bs-body-bg-rgb), 0.7) 30%, rgba(var(--bs-body-bg-rgb), 0.9) 40%, rgba(var(--bs-body-bg-rgb), 1) 50%, rgba(var(--bs-body-bg-rgb), 1) 100%),
-linear-gradient(to right, rgba(var(--bs-body-bg-rgb), 0) 0%, rgba(var(--bs-body-bg-rgb), 0.1) 5%, rgba(var(--bs-body-bg-rgb), 0.3) 10%, rgba(var(--bs-body-bg-rgb), 0.5) 20%, rgba(var(--bs-body-bg-rgb), 0.7) 30%, rgba(var(--bs-body-bg-rgb), 0.9) 40%, rgba(var(--bs-body-bg-rgb), 1) 50%, rgba(var(--bs-body-bg-rgb), 1) 100%);
-mask-composite: intersect;
-}
-
-.dropcap:first-child:first-letter {
---dropcap: 5rem;
-font-size: var(--dropcap);
-line-height: calc(var(--dropcap) * 0.9);
-font-weight: normal;
-margin-right: calc(var(--dropcap) * -0.1);
-
-}]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>296</wp:post_id>
-		<wp:post_date><![CDATA[2025-01-07 21:19:52]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-01-07 21:19:52]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 09:43:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 09:43:05]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[picostrap5-child-gourmet]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[custom_css]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[photo-1551610290-e153ec567dd8]]></title>
-		<link>http://localhost:10139/game-night-coffee-fun-friends/photo-1551610290-e153ec567dd8/</link>
-		<pubDate>Mon, 24 Mar 2025 09:58:07 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/wp-content/uploads/2024/11/photo-1551610290-e153ec567dd8.avif</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>589</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-24 09:58:07]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-24 09:58:07]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-24 09:58:07]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-24 09:58:07]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[photo-1551610290-e153ec567dd8]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>148</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost:10139/wp-content/uploads/2024/11/photo-1551610290-e153ec567dd8-scaled.avif]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/11/photo-1551610290-e153ec567dd8-scaled.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:7:{s:5:"width";i:1600;s:6:"height";i:2560;s:4:"file";s:49:"2024/11/photo-1551610290-e153ec567dd8-scaled.avif";s:8:"filesize";i:595381;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:42:"photo-1551610290-e153ec567dd8-188x300.avif";s:5:"width";i:188;s:6:"height";i:300;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:27431;}s:5:"large";a:5:{s:4:"file";s:43:"photo-1551610290-e153ec567dd8-640x1024.avif";s:5:"width";i:640;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:165655;}s:9:"thumbnail";a:5:{s:4:"file";s:42:"photo-1551610290-e153ec567dd8-150x150.avif";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:13800;}s:12:"medium_large";a:5:{s:4:"file";s:43:"photo-1551610290-e153ec567dd8-768x1229.avif";s:5:"width";i:768;s:6:"height";i:1229;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:214275;}s:9:"1536x1536";a:5:{s:4:"file";s:43:"photo-1551610290-e153ec567dd8-960x1536.avif";s:5:"width";i:960;s:6:"height";i:1536;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:292493;}s:9:"2048x2048";a:5:{s:4:"file";s:44:"photo-1551610290-e153ec567dd8-1280x2048.avif";s:5:"width";i:1280;s:6:"height";i:2048;s:9:"mime-type";s:10:"image/avif";s:8:"filesize";i:437526;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:34:"photo-1551610290-e153ec567dd8.avif";}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>http://localhost:10139/670/</link>
-		<pubDate>Fri, 28 Mar 2025 23:54:06 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://unusual-sonar.localsite.io/?p=670</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>670</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 08:58:20]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-28 23:54:06]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 08:58:20]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 08:58:20]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[670]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="pages-menu"><![CDATA[Pages Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[667]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-03-28]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-03-29]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Template for archive for tax category]]></title>
-		<link>http://localhost:10139/?post_type=lc_dynamic_template&#038;p=745</link>
-		<pubDate>Fri, 04 Apr 2025 09:41:47 +0000</pubDate>
+		<link>http://localhost:8884/?post_type=lc_dynamic_template&#038;p=12</link>
+		<pubDate></pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/?post_type=lc_dynamic_template&#038;p=745</guid>
+		<guid isPermaLink="false">http://localhost:8884/?post_type=lc_dynamic_template&#038;p=12</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>745</wp:post_id>
+		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2025-04-04 09:41:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-04-04 09:41:47]]></wp:post_date_gmt>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2025-04-04 09:41:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 09:41:47]]></wp:post_modified_gmt>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[lc_dynamic_template]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
 		<wp:meta_value><![CDATA[draft]]></wp:meta_value>
 		</wp:postmeta>
@@ -1301,10 +804,10 @@ margin-right: calc(var(--dropcap) * -0.1);
 							</item>
 					<item>
 		<title><![CDATA[Home]]></title>
-		<link>http://localhost:10139/</link>
+		<link>http://localhost:8884/</link>
 		<pubDate>Sat, 02 Nov 2024 16:40:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/home/</guid>
+		<guid isPermaLink="false">http://localhost:8884/?page_id=13</guid>
 		<description></description>
 		<content:encoded><![CDATA[
 <section class="py-2 py-lg-4">
@@ -1957,11 +1460,11 @@ margin-right: calc(var(--dropcap) * -0.1);
 </section>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>8</wp:post_id>
+		<wp:post_id>13</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-02 16:40:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-02 16:40:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-02 13:17:44]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-02 13:17:44]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-11-02 16:40:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-02 16:40:10]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home]]></wp:post_name>
@@ -1978,10 +1481,6 @@ margin-right: calc(var(--dropcap) * -0.1);
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 		<wp:meta_value><![CDATA[page-templates/empty.php]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[ss_title_tag]]></wp:meta_key>
@@ -2010,22 +1509,22 @@ margin-right: calc(var(--dropcap) * -0.1);
 							</item>
 					<item>
 		<title><![CDATA[Jazz Night Extravaganza: Sip and Swing in Style]]></title>
-		<link>http://localhost:10139/jazz-night-extravaganza-sip-and-swing-in-style/</link>
+		<link>http://localhost:8884/?p=14</link>
 		<pubDate>Mon, 04 Nov 2024 23:57:34 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=144</guid>
+		<guid isPermaLink="false">http://localhost:8884/?p=14</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Transport yourself to the soulful world of jazz with live performances featuring upbeat rhythms and<br>improvisational flair. Treat your ears to smooth saxophone solos and melodic bass lines while savoring<br>expertly crafted coffee blends. Whether you’re a jazz connoisseur or just a curious listener, you’ll be<br>swept up in the electric ambiance. Grab a friend, snag a seat, and let the music guide you through<br>an unforgettable night of swing and style.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>144</wp:post_id>
+		<wp:post_id>14</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-04 23:57:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-04 23:57:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:30:25]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:30:25]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_modified><![CDATA[2024-11-04 23:57:34]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-04 23:57:34]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[jazz-night-extravaganza-sip-and-swing-in-style]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
@@ -2033,9 +1532,13 @@ margin-right: calc(var(--dropcap) * -0.1);
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
@@ -2053,22 +1556,22 @@ margin-right: calc(var(--dropcap) * -0.1);
 							</item>
 					<item>
 		<title><![CDATA[Poetry & Coffee: Open Mic Night for Aspiring Artists]]></title>
-		<link>http://localhost:10139/poetry-coffee-open-mic-night-for-aspiring-artists/</link>
+		<link>http://localhost:8884/?p=15</link>
 		<pubDate>Mon, 04 Nov 2024 23:57:50 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=146</guid>
+		<guid isPermaLink="false">http://localhost:8884/?p=15</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Discover the power of the spoken word at our Poetry &amp; Coffee Open Mic Night. Step up to the mic to<br>share your original poems, short stories, or creative musings, or simply listen and soak in the artistry<br>of others. Pair the experience with one of our artisan coffees for an unforgettable evening that celebrates<br>self-expression, community, and the beauty of language. All are welcome—no prior stage experience required.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>146</wp:post_id>
+		<wp:post_id>15</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-04 23:57:50]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-04 23:57:50]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:30:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:30:15]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_modified><![CDATA[2024-11-04 23:57:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-04 23:57:50]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[poetry-coffee-open-mic-night-for-aspiring-artists]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
@@ -2076,8 +1579,16 @@ margin-right: calc(var(--dropcap) * -0.1);
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
 		<wp:meta_value><![CDATA[Poetry & Coffee: Open Mic Night for Aspiring Artists]]></wp:meta_value>
 		</wp:postmeta>
@@ -2089,29 +1600,25 @@ margin-right: calc(var(--dropcap) * -0.1);
 		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
 		<wp:meta_value><![CDATA[Poetry & Coffee: Open Mic Night for Aspiring Artists]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Game Night: Coffee, Fun & Friends]]></title>
-		<link>http://localhost:10139/game-night-coffee-fun-friends/</link>
+		<link>http://localhost:8884/?p=16</link>
 		<pubDate>Mon, 04 Nov 2024 23:58:18 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=148</guid>
+		<guid isPermaLink="false">http://localhost:8884/?p=16</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Round up your friends for an exciting night of board games, card games, and fast-paced fun! Whether you prefer<br>classics like Chess and Scrabble or modern favorites like Codenames and Ticket to Ride, our Game Night has<br>something for everyone. Fuel your competitive spirit with freshly brewed coffee and light snacks, and enjoy<br>an evening of laughter, strategy, and friendly rivalry in a cozy, welcoming atmosphere.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>148</wp:post_id>
+		<wp:post_id>16</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-04 23:58:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-04 23:58:18]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:30:06]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:30:06]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_modified><![CDATA[2024-11-04 23:58:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-04 23:58:18]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[game-night-coffee-fun-friends]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
@@ -2119,9 +1626,13 @@ margin-right: calc(var(--dropcap) * -0.1);
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
@@ -2143,22 +1654,22 @@ margin-right: calc(var(--dropcap) * -0.1);
 							</item>
 					<item>
 		<title><![CDATA[Vintage Movie Marathon: A Night of Nostalgia]]></title>
-		<link>http://localhost:10139/vintage-movie-marathon-a-night-of-nostalgia/</link>
+		<link>http://localhost:8884/?p=17</link>
 		<pubDate>Tue, 05 Nov 2024 00:01:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=150</guid>
+		<guid isPermaLink="false">http://localhost:8884/?p=17</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Escape into the golden era of film with a back-to-back screening of timeless classics. Sink into a comfortable<br>seat, sip on our signature coffee blends, and immerse yourself in a nostalgic movie marathon. Each film has<br>been carefully curated for its unique charm and historical significance. Whether you’re a seasoned cinephile<br>or a curious newcomer, get ready to relive the magic of old Hollywood in a relaxed, café-style setting.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>150</wp:post_id>
+		<wp:post_id>17</wp:post_id>
 		<wp:post_date><![CDATA[2024-11-05 00:01:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-11-05 00:01:16]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:29:55]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:29:55]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_modified><![CDATA[2024-11-05 00:01:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-05 00:01:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[vintage-movie-marathon-a-night-of-nostalgia]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
@@ -2166,9 +1677,13 @@ margin-right: calc(var(--dropcap) * -0.1);
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
@@ -2217,452 +1732,13 @@ margin-right: calc(var(--dropcap) * -0.1);
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Paint & Sip: Create Art with a Cup of Inspiration]]></title>
-		<link>http://localhost:10139/paint-sip-create-art-with-a-cup-of-inspiration/</link>
-		<pubDate>Tue, 05 Nov 2024 00:02:07 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=152</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Unleash your inner artist with a paintbrush in one hand and a comforting cup of coffee in the other.<br>Our resident art instructor will guide you through step-by-step techniques, ensuring that everyone—regardless<br>of skill level—walks away with their own masterpiece. Swap tips and share laughs with friends, and let your<br>creativity flow amid the aroma of freshly ground beans. No prior experience necessary—just a passion for<br>artistic expression!</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>152</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-05 00:02:07]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-05 00:02:07]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:29:45]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:29:45]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[paint-sip-create-art-with-a-cup-of-inspiration]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Paint & Sip: Create Art with a Cup of Inspiration]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Paint & Sip: Create Art with a Cup of Inspiration]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Paint & Sip: Create Art with a Cup of Inspiration]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[290]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Book Club Brunch: Literary Discussions Over Coffee]]></title>
-		<link>http://localhost:10139/book-club-brunch-literary-discussions-over-coffee/</link>
-		<pubDate>Tue, 05 Nov 2024 00:03:34 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=154</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Feed your mind—and your stomach—at our Book Club Brunch. Join fellow literary enthusiasts to discuss<br>this month’s featured novel while enjoying freshly baked pastries and your choice of coffee beverages.<br>Whether you’re a seasoned reader or just looking for a laid-back way to explore new titles, you’ll find<br>lively conversation and warm hospitality in our cozy corner booth. Share your perspective and leave<br>inspired for the next great read.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>154</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-05 00:03:34]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-05 00:03:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:29:33]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:29:33]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[book-club-brunch-literary-discussions-over-coffee]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Book Club Brunch: Literary Discussions Over Coffee]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Book Club Brunch: Literary Discussions Over Coffee]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Book Club Brunch: Literary Discussions Over Coffee]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[292]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Café Trivia Night: Test Your Knowledge Over Coffee]]></title>
-		<link>http://localhost:10139/cafe-trivia-night-test-your-knowledge-over-coffee/</link>
-		<pubDate>Tue, 05 Nov 2024 00:03:51 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=156</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Gather your friends, put your thinking caps on, and come out for a fun-filled Trivia Night at our café.<br>From pop culture to history, challenge yourself across a range of entertaining categories. Sip on<br>specialty lattes and cappuccinos as you race to answer questions and rack up points. Great prizes await<br>the winning team, and the lively atmosphere makes this the perfect midweek break for trivia buffs and<br>coffee lovers alike.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>156</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-05 00:03:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-05 00:03:51]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:29:21]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:29:21]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cafe-trivia-night-test-your-knowledge-over-coffee]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Café Trivia Night: Test Your Knowledge Over Coffee]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Café Trivia Night: Test Your Knowledge Over Coffee]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Café Trivia Night: Test Your Knowledge Over Coffee]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[293]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></title>
-		<link>http://localhost:10139/music-open-mic-a-night-for-local-talent/</link>
-		<pubDate>Tue, 05 Nov 2024 00:06:51 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=158</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Indulge in a one-of-a-kind taste adventure combining the richness of artisanal coffee with the complexity of<br>local craft beers. Our expert baristas and brewmasters will guide you through flavor pairings designed to<br>highlight each drink’s distinctive notes. Learn about the origins of the beans and hops, gain insight into<br>roasting and brewing techniques, and treat your palate to an unforgettable experience that celebrates<br>both boldness and balance.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>158</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-05 00:06:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-05 00:06:51]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:29:10]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:29:10]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[music-open-mic-a-night-for-local-talent]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_title_tag]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[287]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Music Open Mic: A Night for Local Talent]]></title>
-		<link>http://localhost:10139/music-open-mic-a-night-for-local-talent-2/</link>
-		<pubDate>Tue, 05 Nov 2024 00:07:18 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=160</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Calling all music enthusiasts! Showcase your skills or simply enjoy live performances at our Music Open Mic Night.<br>From acoustic guitar sets to soulful vocal renditions, this event brings together local talent from diverse genres.<br>Whether you’re an up-and-coming musician or a devoted fan, join us for a memorable evening. Savor a warm cup<br>of coffee and support your community’s burgeoning artists in an atmosphere buzzing with creativity.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>160</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-05 00:07:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-05 00:07:18]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:28:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:28:59]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[music-open-mic-a-night-for-local-talent-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[286]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_title_tag]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Music Open Mic: A Night for Local Talent]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Music Open Mic: A Night for Local Talent]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Music Open Mic: A Night for Local Talent]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Music Open Mic: A Night for Local Talent]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></title>
-		<link>http://localhost:10139/sunday-yoga-coffee-morning-relax-recharge-refresh/</link>
-		<pubDate>Tue, 05 Nov 2024 00:07:29 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://stacking.cloud/website-vm1wd-latte/?p=161</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Kick-start your Sunday with an energizing yoga session followed by a soothing cup of freshly brewed coffee.<br>Our certified yoga instructor will guide you through gentle stretches and mindful breathing exercises to<br>help you unwind and boost your mood. Afterward, chat with fellow participants over a delicious coffee,<br>specially curated to complement your morning routine. Embrace a balanced lifestyle, recharge your mind,<br>and set the perfect tone for the week ahead.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>161</wp:post_id>
-		<wp:post_date><![CDATA[2024-11-05 00:07:29]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-11-05 00:07:29]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-26 14:28:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-26 14:28:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[sunday-yoga-coffee-morning-relax-recharge-refresh]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="news"><![CDATA[News]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_title_tag]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[230]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Reserve Your Table]]></title>
-		<link>http://localhost:10139/reserve-your-table/</link>
+		<title><![CDATA[Table Reservation]]></title>
+		<link>http://localhost:8884/?page_id=24</link>
 		<pubDate>Wed, 26 Mar 2025 14:33:06 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/?page_id=654</guid>
+		<guid isPermaLink="false">http://localhost:8884/?page_id=24</guid>
 		<description></description>
-		<content:encoded><![CDATA[
-<section class="py-5">
+		<content:encoded><![CDATA[<section class="py-5">
 	<div class="container">
 		<div class="bg-primary-50 rounded-4 shadow p-4 mw-3 mx-auto">
 			<div class="mw-1 mx-auto">
@@ -2824,11 +1900,11 @@ margin-right: calc(var(--dropcap) * -0.1);
 </style>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>654</wp:post_id>
+		<wp:post_id>24</wp:post_id>
 		<wp:post_date><![CDATA[2025-03-26 14:33:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-03-26 14:33:06]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 09:43:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 09:43:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-05-23 02:05:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-23 02:05:04]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[reserve-your-table]]></wp:post_name>
@@ -2853,14 +1929,14 @@ margin-right: calc(var(--dropcap) * -0.1);
 							</item>
 					<item>
 		<title><![CDATA[News]]></title>
-		<link>http://localhost:10139/news/</link>
+		<link>http://localhost:8884/?page_id=25</link>
 		<pubDate>Fri, 28 Mar 2025 23:51:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://unusual-sonar.localsite.io/?page_id=667</guid>
+		<guid isPermaLink="false">http://localhost:8884/?page_id=25</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>667</wp:post_id>
+		<wp:post_id>25</wp:post_id>
 		<wp:post_date><![CDATA[2025-03-28 23:51:49]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-03-28 23:51:49]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2025-03-28 23:51:49]]></wp:post_modified>
@@ -2875,10 +1951,6 @@ margin-right: calc(var(--dropcap) * -0.1);
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
@@ -2889,10 +1961,10 @@ margin-right: calc(var(--dropcap) * -0.1);
 							</item>
 					<item>
 		<title><![CDATA[About us]]></title>
-		<link>http://localhost:10139/about-us/</link>
+		<link>http://localhost:8884/?page_id=26</link>
 		<pubDate>Wed, 02 Apr 2025 13:43:30 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/?page_id=678</guid>
+		<guid isPermaLink="false">http://localhost:8884/?page_id=26</guid>
 		<description></description>
 		<content:encoded><![CDATA[
 <section class="py-4">
@@ -3040,11 +2112,11 @@ margin-right: calc(var(--dropcap) * -0.1);
 </section>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>678</wp:post_id>
+		<wp:post_id>26</wp:post_id>
 		<wp:post_date><![CDATA[2025-04-02 13:43:30]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-04-02 13:43:30]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-02 13:55:36]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-02 13:55:36]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-04-02 13:43:30]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-04-02 13:43:30]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[about-us]]></wp:post_name>
@@ -3062,28 +2134,85 @@ margin-right: calc(var(--dropcap) * -0.1);
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 		<wp:meta_value><![CDATA[page-templates/empty.php]]></wp:meta_value>
 		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Menu]]></title>
+		<link>http://localhost:8884/?p=28</link>
+		<pubDate>Thu, 22 May 2025 23:00:56 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=28</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>28</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-23 02:05:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-22 23:00:56]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-23 02:05:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-23 02:05:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="pages-menu"><![CDATA[Pages Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[28]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[#menu]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-05-22]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
-		<link>http://localhost:10139/746/</link>
-		<pubDate>Fri, 04 Apr 2025 08:49:32 +0000</pubDate>
+		<link>http://localhost:8884/?p=29</link>
+		<pubDate>Thu, 22 May 2025 23:00:56 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:10139/?p=746</guid>
+		<guid isPermaLink="false">http://localhost:8884/?p=29</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>746</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 08:58:20]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-04-04 08:49:32]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 08:58:20]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 08:58:20]]></wp:post_modified_gmt>
+		<wp:post_id>29</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-23 02:05:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-22 23:00:56]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-23 02:05:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-23 02:05:48]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[746]]></wp:post_name>
+		<wp:post_name><![CDATA[29]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>3</wp:menu_order>
@@ -3101,7 +2230,7 @@ margin-right: calc(var(--dropcap) * -0.1);
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[678]]></wp:meta_value>
+		<wp:meta_value><![CDATA[26]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
@@ -3122,6 +2251,671 @@ margin-right: calc(var(--dropcap) * -0.1);
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-05-22]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost:8884/?p=30</link>
+		<pubDate>Thu, 22 May 2025 23:00:56 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=30</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-23 02:05:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-22 23:00:56]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-23 02:05:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-23 02:05:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[30]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="pages-menu"><![CDATA[Pages Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[25]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-05-22]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost:8884/?p=31</link>
+		<pubDate>Fri, 23 May 2025 01:52:06 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=31</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>31</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-23 02:05:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-23 01:52:06]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-23 02:05:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-23 02:05:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[31]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="pages-menu"><![CDATA[Pages Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[13]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost:8884/?p=33</link>
+		<pubDate>Fri, 23 May 2025 02:05:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=33</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>33</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-23 02:05:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-23 02:05:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-23 02:05:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-23 02:05:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[33]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="pages-menu"><![CDATA[Pages Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[24]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>http://localhost:8884/?p=4</link>
+		<pubDate>Thu, 22 May 2025 22:59:39 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=4</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-22 22:59:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-22 22:59:39]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-22 22:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-22 22:59:39]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Paint & Sip: Create Art with a Cup of Inspiration]]></title>
+		<link>http://localhost:8884/?p=18</link>
+		<pubDate>Tue, 05 Nov 2024 00:02:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=18</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Unleash your inner artist with a paintbrush in one hand and a comforting cup of coffee in the other.<br>Our resident art instructor will guide you through step-by-step techniques, ensuring that everyone—regardless<br>of skill level—walks away with their own masterpiece. Swap tips and share laughs with friends, and let your<br>creativity flow amid the aroma of freshly ground beans. No prior experience necessary—just a passion for<br>artistic expression!</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>18</wp:post_id>
+		<wp:post_date><![CDATA[2024-11-05 00:02:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-11-05 00:02:07]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-11-05 00:02:07]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-05 00:02:07]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[paint-sip-create-art-with-a-cup-of-inspiration]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Paint & Sip: Create Art with a Cup of Inspiration]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Paint & Sip: Create Art with a Cup of Inspiration]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Paint & Sip: Create Art with a Cup of Inspiration]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[290]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1530263131525-1c1d26feaa60.avif]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Book Club Brunch: Literary Discussions Over Coffee]]></title>
+		<link>http://localhost:8884/?p=19</link>
+		<pubDate>Tue, 05 Nov 2024 00:03:34 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=19</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Feed your mind—and your stomach—at our Book Club Brunch. Join fellow literary enthusiasts to discuss<br>this month’s featured novel while enjoying freshly baked pastries and your choice of coffee beverages.<br>Whether you’re a seasoned reader or just looking for a laid-back way to explore new titles, you’ll find<br>lively conversation and warm hospitality in our cozy corner booth. Share your perspective and leave<br>inspired for the next great read.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>19</wp:post_id>
+		<wp:post_date><![CDATA[2024-11-05 00:03:34]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-11-05 00:03:34]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-11-05 00:03:34]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-05 00:03:34]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[book-club-brunch-literary-discussions-over-coffee]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Book Club Brunch: Literary Discussions Over Coffee]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Book Club Brunch: Literary Discussions Over Coffee]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Book Club Brunch: Literary Discussions Over Coffee]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[292]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1696198150240-373dcabf24bf.avif]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Café Trivia Night: Test Your Knowledge Over Coffee]]></title>
+		<link>http://localhost:8884/?p=20</link>
+		<pubDate>Tue, 05 Nov 2024 00:03:51 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=20</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Gather your friends, put your thinking caps on, and come out for a fun-filled Trivia Night at our café.<br>From pop culture to history, challenge yourself across a range of entertaining categories. Sip on<br>specialty lattes and cappuccinos as you race to answer questions and rack up points. Great prizes await<br>the winning team, and the lively atmosphere makes this the perfect midweek break for trivia buffs and<br>coffee lovers alike.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>20</wp:post_id>
+		<wp:post_date><![CDATA[2024-11-05 00:03:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-11-05 00:03:51]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-11-05 00:03:51]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-05 00:03:51]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[cafe-trivia-night-test-your-knowledge-over-coffee]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Café Trivia Night: Test Your Knowledge Over Coffee]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Café Trivia Night: Test Your Knowledge Over Coffee]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Café Trivia Night: Test Your Knowledge Over Coffee]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[293]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1508424757105-b6d5ad9329d0.avif]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></title>
+		<link>http://localhost:8884/?p=21</link>
+		<pubDate>Tue, 05 Nov 2024 00:06:51 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=21</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Indulge in a one-of-a-kind taste adventure combining the richness of artisanal coffee with the complexity of<br>local craft beers. Our expert baristas and brewmasters will guide you through flavor pairings designed to<br>highlight each drink’s distinctive notes. Learn about the origins of the beans and hops, gain insight into<br>roasting and brewing techniques, and treat your palate to an unforgettable experience that celebrates<br>both boldness and balance.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>21</wp:post_id>
+		<wp:post_date><![CDATA[2024-11-05 00:06:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-11-05 00:06:51]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-11-05 00:06:51]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-05 00:06:51]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[craft-beer-coffee-tasting-a-unique-flavor-experience]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_title_tag]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Craft Beer & Coffee Tasting: A Unique Flavor Experience]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[287]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1649798510566-4a52cd4fe463.avif]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Music Open Mic: A Night for Local Talent]]></title>
+		<link>http://localhost:8884/?p=22</link>
+		<pubDate>Tue, 05 Nov 2024 00:07:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=22</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Calling all music enthusiasts! Showcase your skills or simply enjoy live performances at our Music Open Mic Night.<br>From acoustic guitar sets to soulful vocal renditions, this event brings together local talent from diverse genres.<br>Whether you’re an up-and-coming musician or a devoted fan, join us for a memorable evening. Savor a warm cup<br>of coffee and support your community’s burgeoning artists in an atmosphere buzzing with creativity.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>22</wp:post_id>
+		<wp:post_date><![CDATA[2024-11-05 00:07:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-11-05 00:07:18]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-11-05 00:07:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-05 00:07:18]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[music-open-mic-a-night-for-local-talent]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[286]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_title_tag]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Music Open Mic: A Night for Local Talent]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Music Open Mic: A Night for Local Talent]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Music Open Mic: A Night for Local Talent]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Music Open Mic: A Night for Local Talent]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/photo-1514320291840-2e0a9bf2a9ae.avif]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></title>
+		<link>http://localhost:8884/?p=23</link>
+		<pubDate>Tue, 05 Nov 2024 00:07:29 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8884/?p=23</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Kick-start your Sunday with an energizing yoga session followed by a soothing cup of freshly brewed coffee.<br>Our certified yoga instructor will guide you through gentle stretches and mindful breathing exercises to<br>help you unwind and boost your mood. Afterward, chat with fellow participants over a delicious coffee,<br>specially curated to complement your morning routine. Embrace a balanced lifestyle, recharge your mind,<br>and set the perfect tone for the week ahead.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>23</wp:post_id>
+		<wp:post_date><![CDATA[2024-11-05 00:07:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-11-05 00:07:29]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-11-05 00:07:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-11-05 00:07:29]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[sunday-yoga-coffee-morning-relax-recharge-refresh]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_title_tag]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Sunday Yoga & Coffee Morning: Relax, Recharge, Refresh]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[230]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_og_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_twitter_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_instagram_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_linkedin_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_article_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[ss_sd_video_thumbnailUrl]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://stacking.cloud/website-vm1wd-latte/wp-content/uploads/sites/767/2024/11/toa-heftiba-yfaEuuackFw-unsplash-scaled.jpg]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
